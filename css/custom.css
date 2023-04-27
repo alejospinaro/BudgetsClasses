@@ -1,0 +1,134 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+header {
+  min-width: 20vw;
+  background-color: #282828;
+  min-height: 90vh;
+  text-align: center;
+  padding: 5vh 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logoSection {
+  height: 10%;
+}
+
+.linkHeader li {
+  list-style: none;
+  color: aliceblue;
+  font-size: 2vw;
+  margin-bottom: 8vh;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.pages {
+  margin-top: 0%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.selected {
+  color: #5cb675 !important;
+  font-weight: bold;
+}
+
+.sectionsContainer {
+  padding: 0vw 5vw;
+  width: 100%;
+}
+
+.sectionOneTitle {
+  font-size: 3vw;
+}
+
+.subtitle {
+  font-size: 2vw;
+  font-weight: 500;
+}
+
+.presupuesto {
+  display: flex;
+}
+
+.aler-message {
+  width: 50%;
+}
+
+.disponible {
+  background-color: #87c6e2;
+}
+
+.disponible p {
+  margin-left: 1vw;
+}
+
+.restant {
+  background-color: #cee9d3;
+}
+
+.restant p {
+  margin-left: 1vw;
+}
+
+.formContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formGasto {
+  width: 55%;
+}
+
+.formGastoInput {
+  width: 100%;
+  height: 2.5vw;
+  border-radius: 1vw;
+  border: 2px solid #000000;
+  padding: 0%;
+  padding-left: 1vw;
+}
+
+.formValor {
+  width: 40%;
+}
+.formValorInput {
+  width: 100%;
+  height: 3vw;
+  border: none;
+  background-color: #eaebe5;
+  border-radius: 1vw;
+  padding: 0%;
+  padding-left: 1vw;
+  margin-left: -1vw;
+}
+
+.btnSubmit {
+  float: right;
+  margin-top: 2vh;
+  width: 8vw;
+  height: 2.5vw;
+  border: none;
+  border-radius: 0.5vw;
+  background-color: #15408a;
+  color: aliceblue;
+}
+
+.gastos {
+  margin-top: 8vh;
+}
