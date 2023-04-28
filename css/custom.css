@@ -79,7 +79,7 @@ a {
 }
 
 .restant {
-  background-color: #cee9d3;
+  background-color: #cdffbc;
 }
 
 .restant p {
@@ -125,10 +125,39 @@ a {
   height: 2.5vw;
   border: none;
   border-radius: 0.5vw;
-  background-color: #15408a;
+  background-color: #0098fe;
   color: aliceblue;
+  cursor: pointer;
 }
 
 .gastos {
   margin-top: 8vh;
+}
+
+/* ! ALERTAS */
+
+.errorAlert {
+  background-color: #e35f5d;
+  height: 5vh;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #eaebe5;
+  margin-top: 2vh;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.succesAlert {
+  background-color: #cdffbc;
+  height: 5vh;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #131313;
+  margin-top: 2vh;
+  font-weight: bold;
+  text-transform: uppercase;
 }
