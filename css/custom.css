@@ -161,3 +161,86 @@ a {
   font-weight: bold;
   text-transform: uppercase;
 }
+
+/*! LISTA GASTOS */
+
+.gastoElement {
+  background-color: #282828;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  color: #eaebe5;
+  margin-top: 2vh;
+  font-weight: bold;
+  text-transform: uppercase;
+  justify-content: space-between;
+  padding: 1% 1vw;
+  border-radius: 10px;
+}
+
+.valorGasto {
+  background-color: #0098fe;
+  padding: 0.5vw;
+  min-width: 5vw;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.btnDelate {
+  background-color: #830d0b;
+  border: none;
+  color: #eaebe5;
+  height: 4vh;
+  width: 7vw;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  cursor: pointer;
+}
+
+.nameGasto {
+  width: 40%;
+}
+
+.danger {
+  background-color: #e35f5d !important;
+  color: #eaebe5;
+}
+
+.caution {
+  background-color: #ffff83 !important;
+}
+
+.dead {
+  background-color: #7c0303 !important;
+  color: #eaebe5;
+}
+
+/*! SPINNER */
+
+.spinner {
+  padding: 2vh 0px;
+  text-align: center;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #b80101;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 2s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
